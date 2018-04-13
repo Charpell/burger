@@ -46,7 +46,7 @@ render() {
 
 };
 
-BurgerIngredient.prototype = {
+BurgerIngredient.propTypes = {
   type: PropTypes.string.isRequired
 }
 
